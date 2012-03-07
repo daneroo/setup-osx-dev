@@ -1,4 +1,5 @@
-# 2012-03-06 After OSX Lion Install
+# Setup Dev environment under OSX
+These note were taken on 2012-03-06. after OSX Lion clean Install
 
 ## Software
 * Google Chrome
@@ -12,7 +13,9 @@
    Zipped from dirac/Applications/Into Dropbox/peered
 * Git from osx installer  
     `git config --global user.name "Daniel Lauzon"`  
-    `git config --global daniel.lauzon@gmail.com`    
+    `git config --global daniel.lauzon@gmail.com`  
+    `ssh-keygen -t rsa -C "daniel@newmachine"`  
+    `pbcopy < ~/.ssh/id_rsa.pub`   
 * node - use pkg installer
 * Xcode - from Appstore  
   w/ Command Line Tools for Xcode - Prefs/Downloads/Command Line Tolls -> install
@@ -28,4 +31,5 @@
 ## Settings
 * Sharing - Remote Login
 * Clock
- 
+* System Prefs/Network/Advanced/DNS/ search domains: imetrical.com
+* .profile (from dirac) 
