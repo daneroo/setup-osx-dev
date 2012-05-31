@@ -27,7 +27,11 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
         ssh-keygen -t rsa -C "daniel@newmachine"
         pbcopy < ~/.ssh/id_rsa.pub
 
-* __node/npm__ - use pkg installer, dirac still uses [n](https://github.com/visionmedia/n)
+* __node/npm__ - use pkg installer, dirac still uses [n](https://github.com/visionmedia/n); :
+
+    * convineiece global npm packages:  json, http-server, nodester-cli
+    
+* __Ruby Gems__: vmc, aws-s3   
 * __Xcode__ - from Appstore  
   w/ Command Line Tools for Xcode - Prefs/Downloads/Command Line Tolls -> install
 * __VirtualBox__
