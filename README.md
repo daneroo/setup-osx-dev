@@ -43,6 +43,9 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 #### Editor / plugins - formatting/linting
 * _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
 * _TextMate_: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
+* _Sublime_: [Package Control](http://wbond.net/sublime_packages/package_control)
+* _Sublime_: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
+* _Sublime_: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
 
 ## Settings
 Would probably be best to setup a repo for dotfiles.
