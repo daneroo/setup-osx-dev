@@ -46,6 +46,7 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * _Sublime_: [Package Control](http://wbond.net/sublime_packages/package_control)
 * _Sublime_: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
 * _Sublime_: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+* _Sublime_: [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
 
 ## Settings
 Would probably be best to setup a repo for dotfiles.
