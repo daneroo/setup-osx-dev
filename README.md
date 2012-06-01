@@ -40,6 +40,12 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * __SourceTree__ - no license required anymore - but in gmail 2011-11-25
 * _iTerm2_: _not yet_
 
+#### JSlint/JSHint/UglifyJS/JSBeautifier
+* [JSLint (node)](https://github.com/reid/node-jslint)
+* [JSHint (node)](https://github.com/jshint/node-jshint)
+* [JSBeautifier (.org)](https://github.com/einars/js-beautify)
+* [UglifyJS (node)](https://github.com/mishoo/UglifyJS)
+
 #### Editor / plugins - formatting/linting
 * _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
 * _TextMate_: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
