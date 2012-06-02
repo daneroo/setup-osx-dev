@@ -58,7 +58,9 @@ To make it a bit more flexible, use the TextMate environment variable TM_TAB_SIZ
 
 To get all env, type env into a new file and execute it from textmate: ^R
 
-To install Get Budles: https://gist.github.com/2722805
+To install Get Budles: 
+https://gist.github.com/2722805
+http://al3x.net/2008/12/03/how-i-use-textmate.html
 -- but there is also a git repo at: https://github.com/adamsalter/GetBundles.tmbundle
 
 #### Editor / plugins - formatting/linting
