@@ -66,6 +66,9 @@ http://al3x.net/2008/12/03/how-i-use-textmate.html
 #### Editor / plugins - formatting/linting
 * _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
 * _TextMate_: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
+* _TextMate_: [AckMate (Project Search Replacement)](https://github.com/protocool/AckMate)
+* _TextMate_: [ProjectPlus](http://ciaranwal.sh/2008/08/05/textmate-plug-in-projectplus)
+  preferences:PRoject+:SCM (IconPack:Straight)
 * _Sublime_: [Package Control](http://wbond.net/sublime_packages/package_control)
 * _Sublime_: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
 * _Sublime_: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
