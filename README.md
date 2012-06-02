@@ -46,8 +46,20 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * [JSBeautifier (.org)](https://github.com/einars/js-beautify)
 * [UglifyJS (node)](https://github.com/mishoo/UglifyJS)
 
-    # how many of these can there be ?
-    npm i beautifier beautifyjs js-beautify-node jsbeautify node-beautify
+          # how many of these can there be ?
+          npm i beautifier beautifyjs js-beautify-node jsbeautify node-beautify
+          jsbeautify looks closest to source
+          for i in `find node_modules/ -name beautify.js`; do echo $i "-+-+-+-+-+-+-+-+-+-+-+-"; diff -b js-beautify/beautify.js $i|wc -l; done
+          # example run
+          node  ./node_modules/jsbeautify/bin/jsbeautify   node-snippet.js node-snippet-b.js -s -i 2
+
+from http://stackoverflow.com/questions/5516010/textmate-reformat-with-2-spaces
+To make it a bit more flexible, use the TextMate environment variable TM_TAB_SIZE, as in print js_beautify( $input, getenv('TM_TAB_SIZE' ) );, which should update how the command operates if you ever change your tab size.
+
+To get all env, type env into a new file and execute it from textmate: ^R
+
+To install Get Budles: https://gist.github.com/2722805
+-- but there is also a git repo at: https://github.com/adamsalter/GetBundles.tmbundle
 
 #### Editor / plugins - formatting/linting
 * _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
