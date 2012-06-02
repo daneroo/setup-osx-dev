@@ -46,6 +46,9 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * [JSBeautifier (.org)](https://github.com/einars/js-beautify)
 * [UglifyJS (node)](https://github.com/mishoo/UglifyJS)
 
+    # how many of these can there be ?
+    npm i beautifier beautifyjs js-beautify-node jsbeautify node-beautify
+
 #### Editor / plugins - formatting/linting
 * _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
 * _TextMate_: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
