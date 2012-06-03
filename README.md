@@ -71,6 +71,13 @@ The beautifier I was using is the one in JSTools, which is out of date, and caus
 
 Now I think I will use JSLintmate (straight npm install dependant), and get a similar thing working with jsbeautifier, which will take the editors indent into account..
 
+**Conslusions**: 
+
+**JSTools** works well, but beautifier is out of date, only has JSLint, and jslint doesn't climb file tree for config.
+
+**subtleGradient/javascript-tools.tmbundle**, don't remember why I stopped using it. Check again. 
+
+
 * TextMate 3rd party bundles
     * Remove JSLintmate
     * Install [Javascript Tools by subGradient](https://github.com/subtleGradient/javascript-tools.tmbundle)
