@@ -69,14 +69,13 @@ Both of theese now pass:
 
 The beautifier I was using is the one in JSTools, which is out of date, and caused a few minor irritants: like having to put `(-1)` in parens to avoid a space being inserted, and arrays are quirky. See `ioOpts` and `/incoming ... .join()` in the snippet.
 
-Now I think I will use JSLintmate (straight npm install dependant), and get a similar thing working with jsbeautifier, which will take the editors indent into account..
+Now I think I will use JSLintmate (straight npm install dependant), and get a similar thing working with jsbeautifier, which will take the editors indent into account. 
 
 **Conslusions**: 
 
 **JSTools** works well, but beautifier is out of date, only has JSLint, and jslint doesn't climb file tree for config.
 
-**subtleGradient/javascript-tools.tmbundle**, don't remember why I stopped using it. Check again. 
-
+**subtleGradient/javascript-tools.tmbundle**, don't remember why I stopped using it. Check again. But probably a good place to start to add to JSLintMate... It bundle `npm` https://github.com/dotmaster/js-beautify-node (fork). Also like their snippets, make one for node, browser, jshint, jslint.
 
 * TextMate 3rd party bundles
     * Remove JSLintmate
