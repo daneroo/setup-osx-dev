@@ -18,8 +18,9 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
     copied settings from `dirac:/Library/Preferences/com.ragingmenace.MenuMeters.plist`
 
 ### Developpment
-* __Textmate__
+* __Textmate__:
    Zipped from dirac/Applications/Into Dropbox/peered
+* _Sublime Text 2_: _not yet_.
 * __Git__: from osx installer  
 
         git config --global user.name "Daniel Lauzon"
@@ -40,39 +41,71 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * __SourceTree__ - no license required anymore - but in gmail 2011-11-25
 * _iTerm2_: _not yet_
 
+
+#### Editor / plugins - formatting/linting
+* TextMate: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
+* TextMate: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
+* TextMate: [AckMate (Project Search Replacement)](https://github.com/protocool/AckMate)
+* TextMate: [ProjectPlus](http://ciaranwal.sh/2008/08/05/textmate-plug-in-projectplus)
+    preferences:PRoject+:SCM (IconPack:Straight)
+* *TextMate*: Too Flaky: [Get Bundles](https://gist.github.com/2722805)
+* TextMate: [JSTools adamhope](https://github.com/adamhope/js-tools.tmbundle) get from Github.
+* Sublime: [Package Control](http://wbond.net/sublime_packages/package_control)
+* Sublime: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
+* Sublime: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+* Sublime: [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
+
 #### JSlint/JSHint/UglifyJS/JSBeautifier
+
+Requirements: we need to pick jslint/jshint settings.
+
+* TextMate 3rd party bundles
+    * Remove JSLintmate
+    * Install [Javascript Tools by subGradient](https://github.com/subtleGradient/javascript-tools.tmbundle)
+
+
+            cd ~/Library/Application\ Support/TextMate/Pristine\ Copy/Bundles
+            git clone https://github.com/subtleGradient/javascript-tools.tmbundle.git
+            osascript -e 'tell app "TextMate" to reload bundles'
+
+/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/opt/local/bin: /usr/local/bin
+* Node.js basis
+
+Thes are global install node packages:
+
 * [JSLint (node)](https://github.com/reid/node-jslint)
 * [JSHint (node)](https://github.com/jshint/node-jshint)
 * [JSBeautifier (.org)](https://github.com/einars/js-beautify)
 * [UglifyJS (node)](https://github.com/mishoo/UglifyJS)
 
-          # how many of these can there be ?
+          # how many node beautify packages can there be ?
           npm i beautifier beautifyjs js-beautify-node jsbeautify node-beautify
           jsbeautify looks closest to source
           for i in `find node_modules/ -name beautify.js`; do echo $i "-+-+-+-+-+-+-+-+-+-+-+-"; diff -b js-beautify/beautify.js $i|wc -l; done
           # example run
           node  ./node_modules/jsbeautify/bin/jsbeautify   node-snippet.js node-snippet-b.js -s -i 2
 
+* TextMate rolling My own ?
+
 from http://stackoverflow.com/questions/5516010/textmate-reformat-with-2-spaces
 To make it a bit more flexible, use the TextMate environment variable TM_TAB_SIZE, as in print js_beautify( $input, getenv('TM_TAB_SIZE' ) );, which should update how the command operates if you ever change your tab size.
 
 To get all env, type env into a new file and execute it from textmate: ^R
 
-To install Get Budles: 
-https://gist.github.com/2722805
-http://al3x.net/2008/12/03/how-i-use-textmate.html
--- but there is also a git repo at: https://github.com/adamsalter/GetBundles.tmbundle
+* Sublime - rolling my own
 
-#### Editor / plugins - formatting/linting
-* _TextMate_: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
-* _TextMate_: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
-* _TextMate_: [AckMate (Project Search Replacement)](https://github.com/protocool/AckMate)
-* _TextMate_: [ProjectPlus](http://ciaranwal.sh/2008/08/05/textmate-plug-in-projectplus)
-  preferences:PRoject+:SCM (IconPack:Straight)
-* _Sublime_: [Package Control](http://wbond.net/sublime_packages/package_control)
-* _Sublime_: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
-* _Sublime_: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
-* _Sublime_: [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
+in /Users/daniel/Library/Application Support/Sublime Text 2/Packages/Sublime-HTMLPrettify/HTMLPrettify.py
+
+got the 'current tab size from:
+print "DDD",json.dumps(self.view.settings().get('tab_size'))
+
+from http://www.sublimetext.com/docs/2/settings.html
+{
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false
+}
+also: http://www.sublimetext.com/docs/2/indentation.html
+
 
 ## Settings
 Would probably be best to setup a repo for dotfiles.
