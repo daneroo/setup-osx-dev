@@ -59,6 +59,12 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 
 Requirements: we need to pick jslint/jshint settings.
 
+I have worked my way through my node-snippet and made appropriate changes, and settings
+using command-line `npm` global installed `jslint`, and `jshint`.
+The beautifier I was using is the one in JSTools, which is out of date, and caused a few minor irritants:
+
+Now I think I will use JSLintmate (straight npm install dependant), and get a similar thing working with jsbeautifier, which will take the editors indent into account..
+
 * TextMate 3rd party bundles
     * Remove JSLintmate
     * Install [Javascript Tools by subGradient](https://github.com/subtleGradient/javascript-tools.tmbundle)
