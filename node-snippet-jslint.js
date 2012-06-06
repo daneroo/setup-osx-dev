@@ -5,7 +5,8 @@
   sloppy: true,
   vars: true,
   undef: true,
-  stupid: true
+  stupid: true,
+  es5: true
 */
 /* Hint explanations
   nomen: true, // allow dangling _
@@ -63,6 +64,7 @@ function persistFeed(accountId, feeds) {
 
   var modifiedScopes = [];
   if (Array.isArray(feeds)) {
+    /*jslint unparam: true*/
     feeds.forEach(function (feed, i) {
       if (feed.scopeId !== undefined) {
         var scopeId = Number(feed.scopeId);
@@ -73,6 +75,7 @@ function persistFeed(accountId, feeds) {
         }
       }
     });
+    /*jslint unparam: false*/
   }
   // console.log('push updates',accountId,modifiedScopes);
   broadcastUpdates(accountId, modifiedScopes);
@@ -142,17 +145,21 @@ var services = {
   }
 };
 
+/*jslint unparam: true*/
 server.get('/feeds', function (req, res) {
   // res.contentType('json');
   res.contentType('text');
   res.send(JSON.stringify(persistentFeeds, null, 2));
 });
+/*jslint unparam: false*/
 
+/*jslint unparam: true*/
 server.get('/incoming', function (req, res) {
   // res.contentType('json');
   res.contentType('text');
   res.send(JSON.stringify(reflectIncoming, null, 2));
 });
+/*jslint unparam: false*/
 
 // TODO; remove /:id from signature, included in body:  is this REST ok ?
 // add the bodyparser only for this route.

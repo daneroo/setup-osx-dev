@@ -67,6 +67,10 @@ Both of theese now pass:
         jslint  node-snippet-jslint.js
         jshint  node-snippet-jshint.js
 
+Now using the JSLintMate plugin and pointing it to 
+`/usr/local/lib/node_modules/jshint/lib/hint.js` and
+`/usr/local/lib/node_modules/jslint/lib/jslint.js` as linters. problem with `unparam`.
+
 The beautifier I was using is the one in JSTools, which is out of date, and caused a few minor irritants: like having to put `(-1)` in parens to avoid a space being inserted, and arrays are quirky. See `ioOpts` and `/incoming ... .join()` in the snippet.
 
 Now I think I will use JSLintmate (straight npm install dependant), and get a similar thing working with jsbeautifier, which will take the editors indent into account. 
