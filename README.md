@@ -32,7 +32,10 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 
     * convineiece global npm packages:  json, http-server, nodester-cli
     
-* __Ruby Gems__: vmc, aws-s3   
+* __Ruby Gems__: vmc, (aws-s3 deprecated) fog  
+  `sudo gem install vmc fog --no-ri --no-rdoc`  
+  might need fog 0.7.(2|3) for mccloud  
+  `vmc target api.cloudfoundry.com`
 * __Xcode__ - from Appstore  
   w/ Command Line Tools for Xcode - Prefs/Downloads/Command Line Tolls -> install
 * __VirtualBox__
@@ -79,7 +82,7 @@ Now I think I will use JSLintmate (straight npm install dependant), and get a si
 
 **JSTools** works well, but beautifier is out of date, only has JSLint, and jslint doesn't climb file tree for config.
 
-**subtleGradient/javascript-tools.tmbundle**, don't remember why I stopped using it. Check again. But probably a good place to start to add to JSLintMate... It bundle `npm` https://github.com/dotmaster/js-beautify-node (fork). Also like their snippets, make one for node, browser, jshint, jslint.
+**subtleGradient/javascript-tools.tmbundle**, don't remember why I stopped using it. Check again. But probably a good place to start to add to JSLintMate... It bundles `npm` https://github.com/dotmaster/js-beautify-node (fork). Also like their snippets, make one for node, browser, jshint, jslint.
 
 * TextMate 3rd party bundles
     * Remove JSLintmate
