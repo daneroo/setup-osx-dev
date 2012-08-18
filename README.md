@@ -19,7 +19,8 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 
 ### Developpment
 * __Textmate__:
-   Zipped from dirac/Applications/Into Dropbox/peered
+   Zipped from dirac/Applications/Into Dropbox/peered  
+   install mate command by selecting Help → Terminal Usage
 * _Sublime Text 2_: _not yet_.
 * __Git__: from osx installer  
 
