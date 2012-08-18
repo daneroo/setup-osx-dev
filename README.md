@@ -38,7 +38,7 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
   might need fog 0.7.(2|3) for mccloud  
   `vmc target api.cloudfoundry.com`
 * __Xcode__ - from Appstore  
-  w/ Command Line Tools for Xcode - Prefs/Downloads/Command Line Tolls -> install
+  w/ Command Line Tools for Xcode - Prefs/Downloads/Command Line Tools -> install
 * __VirtualBox__
 * __Vagrant__: from installer
 * __Propane__ - license in gmail - 2011-05-16
