@@ -18,10 +18,12 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
     copied settings from `dirac:/Library/Preferences/com.ragingmenace.MenuMeters.plist`
 
 ### Developpment
-* __Textmate__:
+* __Textmate__:  
    Zipped from dirac/Applications/Into Dropbox/peered  
    install mate command by selecting Help → Terminal Usage
-* _Sublime Text 2_: _not yet_.
+   
+* __Sublime Text 2__: 
+
 * __Git__: from osx installer  
 
         git config --global user.name "Daniel Lauzon"
