@@ -9,6 +9,7 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
     * Delicious: [for Chrome](https://chrome.google.com/webstore/detail/gclkcflnjahgejhappicbhcpllkpakej)
     * JSONView:[for Chrome](https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc)
     * Window_Resizer: [for Chrome](https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh)
+    * [Markdown Preview](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd)
     
 * __Lastpass__: Basic authentication for Mac OS X requires that you enable access for assistive devices. In OS X  10.7 or less by going to Apple > System Preferences > Universal Access and checking "Enable access for assistive devices".
 * __Dropbox__
@@ -51,13 +52,16 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 #### Editor / plugins - formatting/linting
 * Sublime:
     * [Package Control](http://wbond.net/sublime_packages/package_control)
-    * Markdown Preview
+    * SidebarEnhancement : open in browser... with Markdown Preview chrome plugin
+    * ZenCoding: e.g. ul>li*4  (being replaced by Emmet)
+    * Sublime Linter
+        
     * [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
     * here are my user defined keys
 
                 [
                     {"keys": ["super+shift+["], "command": "js_format"},
-                    {"keys": ["ctrl+alt+super+p"], "command": "markdown_preview"}
+                    {"keys": ["ctrl+alt+super+p"], "command": "side_bar_open_in_browser"}
                 ]
 
 
