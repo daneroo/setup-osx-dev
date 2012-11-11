@@ -19,8 +19,8 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 
 ### Developpment
 * __Textmate__:  
-   Zipped from dirac/Applications/Into Dropbox/peered  
-   install mate command by selecting Help → Terminal Usage
+    Zipped from dirac/Applications/Into Dropbox/peered  
+    install mate command by selecting Help → Terminal Usage
    
 * __Sublime Text 2__: 
 
@@ -49,17 +49,19 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 
 
 #### Editor / plugins - formatting/linting
-* TextMate: [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
-* TextMate: [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
-* TextMate: [AckMate (Project Search Replacement)](https://github.com/protocool/AckMate)
-* TextMate: [ProjectPlus](http://ciaranwal.sh/2008/08/05/textmate-plug-in-projectplus)
+* Sublime:
+    * [Package Control](http://wbond.net/sublime_packages/package_control)
+    * [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
+    * [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+    * [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
+* TextMate:
+    * [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
+    * [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
+    * [AckMate (Project Search Replacement)](https://github.com/protocool/AckMate)
+    * TextMate: [ProjectPlus](http://ciaranwal.sh/2008/08/05/textmate-plug-in-projectplus)
     preferences:PRoject+:SCM (IconPack:Straight)
-* *TextMate*: Too Flaky: [Get Bundles](https://gist.github.com/2722805)
-* TextMate: [JSTools adamhope](https://github.com/adamhope/js-tools.tmbundle) get from Github.
-* Sublime: [Package Control](http://wbond.net/sublime_packages/package_control)
-* Sublime: [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
-* Sublime: [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
-* Sublime: [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
+    * *TextMate*: Too Flaky: [Get Bundles](https://gist.github.com/2722805)
+    * [JSTools adamhope](https://github.com/adamhope/js-tools.tmbundle) get from Github.
 
 #### JSlint/JSHint/UglifyJS/JSBeautifier
 
