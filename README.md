@@ -22,7 +22,7 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
     Zipped from dirac/Applications/Into Dropbox/peered  
     install mate command by selecting Help → Terminal Usage
    
-* __Sublime Text 2__: 
+* __Sublime Text 2__: see Package control packages below
 
 * __Git__: from osx installer  
 
@@ -51,9 +51,22 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 #### Editor / plugins - formatting/linting
 * Sublime:
     * [Package Control](http://wbond.net/sublime_packages/package_control)
-    * [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
-    * [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+    * Markdown Preview
     * [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
+    * here are my user defined keys
+
+                [
+                    {"keys": ["super+shift+["], "command": "js_format"},
+                    {"keys": ["ctrl+alt+super+p"], "command": "markdown_preview"}
+                ]
+
+
+    * _below are removed for now_
+    * [Sublime JSHint](https://github.com/victorporof/Sublime-JSHint)
+    * [Sublime HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify) as an alternative to JSFormat
+    * [Closure-linter](git://github.com/fbzhong/sublime-closure-linter.git)
+    * [sublime-text-jsbeautifier](git://github.com/kriswill/sublime-text-jsbeautifier.git)
+
 * TextMate:
     * [JSLintmate](http://rondevera.github.com/jslintmate/); jslint/jshint
     * [Solarized](http://ethanschoonover.com/solarized) theme for textmate: [github repo](https://github.com/deplorableword/textmate-solarized)
