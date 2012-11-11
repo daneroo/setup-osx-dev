@@ -25,18 +25,19 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
    
 * __Sublime Text 2__: see Package control packages below
 
-* __Git__: from osx installer  
+* __Git__: from osx installer
 
         git config --global user.name "Daniel Lauzon"
         git config --global daniel.lauzon@gmail.com
         ssh-keygen -t rsa -C "daniel@newmachine"
         pbcopy < ~/.ssh/id_rsa.pub
 
-* __node/npm__ - use pkg installer, dirac still uses [n](https://github.com/visionmedia/n); :
+* __homebrew__: [install](http://mxcl.github.com/homebrew/) wget, groovy, iftop
+* __node/npm__ - use pkg installer, dirac still uses [n](https://github.com/visionmedia/n):  
 
     * convineiece global npm packages:  json, http-server, nodester-cli
     
-* __Ruby Gems__: vmc, (aws-s3 deprecated) fog  
+* __Ruby Gems__: vmc, af, fog, (aws-s3 deprecated)  
   `sudo gem install vmc fog --no-ri --no-rdoc`  
   might need fog 0.7.(2|3) for mccloud  
   `vmc target api.cloudfoundry.com`
