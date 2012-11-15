@@ -54,7 +54,7 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * Sublime:
     * [Package Control](http://wbond.net/sublime_packages/package_control)
     * SidebarEnhancement : open in browser... with Markdown Preview chrome plugin
-    * ZenCoding: e.g. ul>li*4  (being replaced by Emmet)
+    * Emmet: e.g. ul>li*4  (superseeded ZenCoding)
     * Sublime Linter
         
     * [Sublime JSFormat](https://github.com/jdc0589/JsFormat)
