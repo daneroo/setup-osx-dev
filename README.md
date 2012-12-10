@@ -18,6 +18,29 @@ These note were taken on 2012-03-06. after OSX Lion clean Install
 * __MenuMeters__:
     copied settings from `dirac:/Library/Preferences/com.ragingmenace.MenuMeters.plist`
 
+### Synching, Archiving and Cron
+Should describe here the 
+* Time machine setup
+* Dropbox/gdocs
+* Dropbox/Camera uploads
+* photo, /archive synching
+* im-w, im-csa, im-rj
+
+Should have a global check on all these crons
+
+#### GMail Vault Backup
+This is setup on dirac, in `Downloads/gmvault-v1.7-beta`
+the logs (cron trace) are in that same directory
+If we move the bin to /usr/local
+
+
+    # gmvault GMail backup - daily quick
+    00 20,22 * * * cd /Users/daniel/Downloads/gmvault-v1.7-beta; /usr/bin/time ./bin/gmvault sync daniel.lauzon@gmail.com -t quick  > last-gmvault-sync-quick.log 2>&1
+
+    # gmvault GMail backup - weekly full Sunday Midnight
+    00 0 * * 0 cd /Users/daniel/Downloads/gmvault-v1.7-beta; /usr/bin/time ./bin/gmvault sync daniel.lauzon@gmail.com -t full  > last-gmvault-sync-full.log 2>&1
+
+
 ### Developpment
 * __Textmate__:  
     Zipped from dirac/Applications/Into Dropbox/peered  
