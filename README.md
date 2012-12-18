@@ -40,6 +40,10 @@ If we move the bin to /usr/local
     # gmvault GMail backup - weekly full Sunday Midnight
     00 0 * * 0 cd /Users/daniel/Downloads/gmvault-v1.7-beta; /usr/bin/time ./bin/gmvault sync daniel.lauzon@gmail.com -t full  > last-gmvault-sync-full.log 2>&1
 
+### Dotfiles
+Well eventually...
+
+But for now only note, that when we install rvm, creating a `.bash_profile`, causes .profile to be ignored, sou we source it (`.profile`) from `.bash_profile` 
 
 ### Developpment
 * __Textmate__:  
