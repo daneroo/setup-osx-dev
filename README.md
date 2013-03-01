@@ -56,6 +56,7 @@ But for now only note, that when we install rvm, creating a `.bash_profile`, cau
 
         git config --global user.name "Daniel Lauzon"
         git config --global daniel.lauzon@gmail.com
+        git config --global color.ui
         ssh-keygen -t rsa -C "daniel@newmachine"
         pbcopy < ~/.ssh/id_rsa.pub
 
