@@ -59,7 +59,8 @@ But for now only note, that when we install rvm, creating a `.bash_profile`, cau
         ssh-keygen -t rsa -C "daniel@newmachine"
         pbcopy < ~/.ssh/id_rsa.pub
 
-* __homebrew__: [install](http://mxcl.github.com/homebrew/) wget, groovy, iftop
+* __homebrew__: [install](http://mxcl.github.com/homebrew/) wget, groovy, iftop, git, rsync  
+You might put `/usr/local/bin` before `/usr/bin`
 * __node/npm__ - use pkg installer, dirac still uses [n](https://github.com/visionmedia/n):  
 
     * convineiece global npm packages:  json, http-server, nodester-cli
